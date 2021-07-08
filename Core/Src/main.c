@@ -97,6 +97,7 @@ int main(void)
   while (1)
   {
 	  const int pwm;
+	  1;
 
 	  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
 	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, 1);
